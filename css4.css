@@ -1,0 +1,40 @@
+div{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+*{
+    margin-top: 50px;
+}
+
+#one{
+    transform: rotate(45deg);
+    background-color: yellowgreen;
+}
+#two{
+    transform: scale(0.5);
+    background-color: burlywood;
+}
+#three{
+    transform: translate(-70px);
+    background-color: chocolate;
+}
+#four{
+    transform: skew(30deg);
+    background-color: aquamarine;
+}
+#five{
+    border-style: none;
+    background-color: aqua;
+}
+#five:hover{
+    /* transition: 1s ;
+    border-radius: 50%;
+    background-color: blue; */
+    box-shadow:2px 2px 10px black;
+    transform: rotateX(180deg);
+    transition-duration: 2s;
+}
